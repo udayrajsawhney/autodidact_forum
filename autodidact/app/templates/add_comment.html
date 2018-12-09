@@ -3,7 +3,7 @@
     {% csrf_token %}
     <div class="btn-group inline" style="width: 100%; height: 48px;">
         <input name="description" class="form-control" style="border: 0;"
-               placeholder="Add a comment">
+               required placeholder="Add a comment">
         <input type="hidden" name="post_id" value="{{ post.id }}">
         <input type="hidden" name="answer_id" value="{{ answer.id }}">
         <button type="submit" style="background-color: #006dd9; width: 250px; color: white" class="btn">Add comment
