@@ -1,8 +1,8 @@
 # Autodidact
 
-> A `django` and `mysql` based web application. This is a prototype developed for our college Indian Institute of Information Technology, Sri City.
+> A **django** and **mysql** based web application. This is a prototype developed for our college Indian Institute of Information Technology, Sri City.
 
-> A discussion forum where students can post questions, create tags, upvote/ downvote and comment on answers and questions.
+> :mailbox_with_mail: A discussion forum where students can post questions, create tags, upvote/ downvote and comment on answers and questions.
 
 ## To Run Project
 
@@ -19,9 +19,9 @@
 
 #### Screenshots
 
-<img src="https://github.com/udayrajsawhney/autodidact_forum/blob/master/screenshots/1.png" width="960" height="520"/><br>
-<img src="https://github.com/udayrajsawhney/autodidact_forum/blob/master/screenshots/2.png" width="960" height="520"/><br>
-<img src="https://github.com/udayrajsawhney/autodidact_forum/blob/master/screenshots/3.png" width="960" height="520"/><br>
-<img src="https://github.com/udayrajsawhney/autodidact_forum/blob/master/screenshots/4.png" width="960" height="520"/><br>
-<img src="https://github.com/udayrajsawhney/autodidact_forum/blob/master/screenshots/5.png" width="960" height="520"/><br>
-<img src="https://github.com/udayrajsawhney/autodidact_forum/blob/master/screenshots/6.png" width="960" height="520"/>
+<img src="https://github.com/udayrajsawhney/autodidact_forum/blob/master/screenshots/1.png" width="520" height="360"/><br>
+<img src="https://github.com/udayrajsawhney/autodidact_forum/blob/master/screenshots/2.png" width="520" height="360"/><br>
+<img src="https://github.com/udayrajsawhney/autodidact_forum/blob/master/screenshots/3.png" width="520" height="360"/><br>
+<img src="https://github.com/udayrajsawhney/autodidact_forum/blob/master/screenshots/4.png" width="520" height="360"/><br>
+<img src="https://github.com/udayrajsawhney/autodidact_forum/blob/master/screenshots/5.png" width="520" height="360"/><br>
+<img src="https://github.com/udayrajsawhney/autodidact_forum/blob/master/screenshots/6.png" width="520" height="360"/>
