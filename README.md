@@ -19,4 +19,9 @@
 
 #### Screenshots
 
-<img src="https://github.com/udayrajsawhney/autodidact_forum/blob/master/screenshots/1.png" width="960" height="520"/> <img src="https://github.com/udayrajsawhney/autodidact_forum/blob/master/screenshots/2.png" width="960" height="520"/> <img src="https://github.com/udayrajsawhney/autodidact_forum/blob/master/screenshots/3.png" width="960" height="520"/> <img src="https://github.com/udayrajsawhney/autodidact_forum/blob/master/screenshots/4.png" width="960" height="520"/> <img src="https://github.com/udayrajsawhney/autodidact_forum/blob/master/screenshots/5.png" width="960" height="520"/> <img src="https://github.com/udayrajsawhney/autodidact_forum/blob/master/screenshots/6.png" width="960" height="520"/>
+<img src="https://github.com/udayrajsawhney/autodidact_forum/blob/master/screenshots/1.png" width="960" height="520"/><br>
+<img src="https://github.com/udayrajsawhney/autodidact_forum/blob/master/screenshots/2.png" width="960" height="520"/><br>
+<img src="https://github.com/udayrajsawhney/autodidact_forum/blob/master/screenshots/3.png" width="960" height="520"/><br>
+<img src="https://github.com/udayrajsawhney/autodidact_forum/blob/master/screenshots/4.png" width="960" height="520"/><br>
+<img src="https://github.com/udayrajsawhney/autodidact_forum/blob/master/screenshots/5.png" width="960" height="520"/><br>
+<img src="https://github.com/udayrajsawhney/autodidact_forum/blob/master/screenshots/6.png" width="960" height="520"/>
