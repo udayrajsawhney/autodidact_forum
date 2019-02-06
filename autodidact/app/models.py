@@ -24,7 +24,7 @@ class Post(models.Model):
     title = models.CharField(max_length=100)
     description = models.CharField(max_length=1000)
     tags = models.ManyToManyField(Tag)
-    accepted_answer = models.OneToOneField('Answer', null=True, related_name='accepted_answer')
+    #accepted_answer = models.OneToOneField('Answer', null=True, related_name='accepted_answer')
     up_voters = models.ManyToManyField('ForumUser', related_name='up_voted_post')
     down_voters = models.ManyToManyField('ForumUser', related_name='down_voted_post')
     viewers = models.ManyToManyField('ForumUser', related_name='viewed_post')
@@ -39,6 +39,7 @@ class Post(models.Model):
 class Answer(models.Model):
     description = models.CharField(max_length=1000)
     post = models.ForeignKey('Post')
+    is_accepted = models.BooleanField(default=False)
     up_voters = models.ManyToManyField('ForumUser', related_name='up_voted_answer')
     down_voters = models.ManyToManyField('ForumUser', related_name='down_voted_answer')
     creation_time = models.DateTimeField(auto_now_add=True)

@@ -337,21 +337,31 @@ def update_answer_accept(request):
         answer = Answer.objects.get(pk=answer_id)
         if answer.post.created_by.django_user == request.user:
             post = answer.post
-
-            if post.accepted_answer is not None:
-                obj = post.accepted_answer.created_by
-                obj.reputation -= 10
-                obj.save()
-
-            if post.accepted_answer != answer:
-                post.accepted_answer = answer
-                obj = answer.created_by
+            obj = answer.created_by
+            if answer.is_accepted == False :
+                answer.is_accepted = True
                 obj.reputation += 10
                 obj.save()
-            else:
-                post.accepted_answer = None
+                answer.save()
+            else :
+                answer.is_accepted = False
+                obj.reputation -= 10
+                obj.save()
+                answer.save()
+            # if post.accepted_answer is not None:
+            #     obj = post.accepted_answer.created_by
+            #     obj.reputation -= 10
+            #     obj.save()
+            #
+            # if post.accepted_answer != answer:
+            #     post.accepted_answer = answer
+            #     obj = answer.created_by
+            #     obj.reputation += 10
+            #     obj.save()
+            # else:
+            #     post.accepted_answer = None
 
-            post.save()
+            # post.save()
             res = JsonResponse({'res': 'success'})
         return res
 

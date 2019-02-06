@@ -130,11 +130,16 @@
                                             <img
                                                     style="width: 32px; height: 32px;"
 
-                                                    {% if post.accepted_answer == answer %}
+                                                    {% if answer.is_accepted == True %}
                                                     src="{% static 'app/img/checked.svg' %}"
                                                     {% else %}
                                                     src="{% static 'app/img/unchecked.svg' %}"
                                                     {% endif %}
+                                                    {#                                                    {% if post.accepted_answer == answer %}#}
+                                                    {#                                                    src="{% static 'app/img/checked.svg' %}"#}
+                                                    {#                                                    {% else %}#}
+                                                    {#                                                    src="{% static 'app/img/unchecked.svg' %}"#}
+                                                    {#                                                    {% endif %}#}
 
                                                     onclick="markAccepted({{ answer.id }})"
 
